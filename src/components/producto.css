@@ -1,0 +1,32 @@
+.container {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    background-color: #28a40c;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 #28a40c, 0 2px 4px 0 #28a40c;
+}
+.del {
+    background-color: #b22222;
+}
+.del:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 #b22222, 0 2px 4px 0 #b22222;
+}
